@@ -24,5 +24,5 @@ COPY . .
 ENV NODE_ENV=production
 RUN bun run build
 
-CMD ["bun", "run", "start", "--port", "80"]
+CMD ["bun", "run", "start"]
 
